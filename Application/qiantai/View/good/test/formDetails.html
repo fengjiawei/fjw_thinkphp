@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>订单详情</title>
+    <include file='Public/js'/>
+    <style> table {
+        padding: 0;
+        text-align: center;
+        font-size: 5px;
+    }
+
+    table th {
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body style="background-color: #ffffff">
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="page-header">
+                <h3>
+                    订单详情
+                </h3>
+            </div>
+            <div class="panel panel-default col-md-6">
+                <div class="heading">
+                    <p>订单信息</p>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped table-condensed">
+                        <thead>
+                        <tr class="active">
+                            <th>单号</th>
+                            <th>状态</th>
+                            <th>发货类型</th>
+                            <th>装货日期</th>
+                            <th>到货日期</th>
+                            <th>装车城市</th>
+                            <th>卸货城市</th>
+                            <th>运费</th>
+                            <th>杂费</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="formDetail" id="f">
+                            <tr class="sucess">
+                                <td>{$f.id}</td>
+                                <td>{$f.status}</td>
+                                <td>{$f.good_type}</td>
+                                <td>{$f.load_date}</td>
+                                <td>{$f.receipt_date}</td>
+                                <td>{$f.from_city}</td>
+                                <td>{$f.to_city}</td>
+                                <td>{$f.load_price}</td>
+                                <td>{$f.zafei}</td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!--<div class="panel panel-default col-md-6">-->
+                <!--<div class="heading" id="panelheading1">-->
+                    <!--<p>货源信息</p>-->
+                <!--</div>-->
+                <!--<div class="table-responsive">-->
+                    <!--<table class="table table-hover &lt;!&ndash;table-striped &ndash;&gt;table-condensed">-->
+                        <!--<thead>-->
+                        <!--<tr class="active">-->
+
+                            <!--<th>状态</th>-->
+                            <!--<th>货物类型</th>-->
+                            <!--<th>装货日期</th>-->
+                            <!--<th>装车城市</th>-->
+                            <!--<th>卸货城市</th>-->
+                            <!--<th>重量/体积</th>-->
+                            <!--<th>备注</th>-->
+
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+                        <!--<tr class="sucess">-->
+                            <!--<td>完成</td>-->
+                            <!--<td>设备</td>-->
+                            <!--<td>2015-07-18</td>-->
+                            <!--<td>杭州</td>-->
+                            <!--<td>广州</td>-->
+                            <!--<td>35吨</td>-->
+                            <!--<td>无</td>-->
+                        <!--</tr>-->
+
+                        <!--</tbody>-->
+                    <!--</table>-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="panel panel-default col-md-6">
+                <div class="heading" id="panelheading2">
+                    <p>承运方信息</p>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover <!--table-striped--> table-condensed">
+                        <thead>
+                        <tr class="active">
+                            <th>物流公司名称</th>
+                            <th>联系人</th>
+                            <th>联系方式</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="companyDetail" id="c">
+                            <tr class="sucess">
+                                <td>{$c.company}</td>
+                                <td>{$c.contact}</td>
+                                <td>{$c.tel}</td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--<div id="pingjia1">-->
+
+        <!--<div id="demo1" class="demo">-->
+        <!--<p></p>-->
+        <!--<br/>-->
+
+        <!--<form>-->
+        <!--<p> 请填写评价信息！</p>-->
+        <!--<textarea class="form-control" rows="3">-->
+
+        <!--</textarea>-->
+
+        <!--<p></p>-->
+
+        <!--<div>-->
+        <!--<button class="btn btn-primary btn-sm">提交评价</button>-->
+        <!--</div>-->
+        <!--</form>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="routeApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>乾泰56</title>
+
+    <script type="text/javascript">
+        function reinitIframe() {
+            var iframe = document.getElementById("frame");
+            try {
+                var bHeight = iframe.contentWindow.document.body.scrollHeight;
+                var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+                var height = Math.max(bHeight, dHeight);
+                iframe.height = height;
+            } catch (ex) {
+            }
+        }
+        window.setInterval("reinitIframe()", 200);
+    </script>
+    <style>
+        table {
+            font-size: 10px;
+            align-content: center;
+            text-align: center;
+        }
+
+        table th {
+            font-size: 10px;
+            align-content: center;
+            text-align: center;
+        }
+
+    </style>
+    <include file='Public/js'/>
+
+
+</head>
+
+<body>
+<include file='Public/head'/>
+
+
+<div ng-view></div>
+
+
+<!--页脚-->
+<include file='Public/footer'/>
+
+<script>
+    var routeApp = angular.module('routeApp', ['ngRoute']);
+    routeApp.config(['$routeProvider', function ($routeProvider, $locationProvider) {
+        $routeProvider
+                .when('/index', {
+                    templateUrl: '{:U("Index/test1")}',
+                    controller: 'RouteCtl'
+                }).when('/reg1', {
+                    templateUrl: '{:U("Index/test")}',
+                    controller: 'RouteCtl'
+                }).when('/reg2', {
+                    templateUrl: '{:U("Index/test2")}',
+                    controller: 'RouteCtl'
+                })
+                .when('/goodinfo', {
+                    templateUrl: '{:U("Good/goodinfo")}',
+                    controller: 'RouteCtl'
+                })
+                .when('/carinfo', {
+                    templateUrl: '{:U("Car/carinfo")}',
+                    controller: 'RouteCtl'
+                })
+                .when('/goodcenter', {
+                    templateUrl: '{:U("Good/test")}',
+                    controller: 'RouteCtl'
+                })
+                .when('/carcenter', {
+                    templateUrl: '{:U("Car/center")}',
+                    controller: 'RouteCtl'
+                })
+                .when('/platformService', {
+                    templateUrl: "{:U('Platform/platformService')}",
+                    controller: 'RouteCtl'
+                })
+                .when('/platformResource', {
+                    templateUrl: "{:U('Platform/platformResource')}",
+                    controller: 'RouteCtl'
+                })
+                .otherwise({
+                    redirectTo: '/index'
+                });
+
+//        $locationProvider.html5Mode(true);
+    }]);
+
+    routeApp.controller('RouteCtl', function ($scope) {
+    });
+    //    routeApp.controller('RouteDetailCtl', function ($scope) {
+    //    });
+
+
+</script>
+</body>
+
+</html>

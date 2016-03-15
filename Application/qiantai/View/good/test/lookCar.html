@@ -1,0 +1,443 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <include file = 'Public/js' />
+    <style>
+        table {
+            padding: 0;
+            text-align: center;
+            font-size: 12px;
+        }
+        table th{
+            text-align: center;
+        }
+        .jiange div {
+            margin-top: 8px;
+            font-size: 11px;
+        }
+
+        .jiange button {
+            margin-top: 8px;
+
+        }
+    </style>
+
+</head>
+<body style="background-color: #ffffff">
+
+<div class="container-fluid" >
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="page-header">
+                <h3>
+                    查看车源
+                </h3>
+            </div>
+            <ul id="mytab" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#person">个人车主</a></li>
+                <li role="presentation"><a href="#company">企业车主</a>
+                </li>
+
+            </ul>
+
+            <!--tab页content-->
+            <div class="tab-content" ng-app='app' ng-controller='cityCtrl'>
+                <!--tab页 1 整车发货-->
+                <div class="tab-pane active" id="person">
+                    <div class="container jiange" style="width: 800px;">
+                        <form class="form-inline" action="/Good/lookCar" method="get" ng-app='app'
+                              ng-controller='cityCtrl'>
+                            <div class="form-group" style="width: 100%">
+                                <div class="form-group">
+                                    <label class="control-label formlabel1">线　　路 </label>
+                                    <select class="form-control" ng-model="selected" ng-options="s.text for s in list">
+                                        <option value="">--请选择--</option>
+                                    </select>
+                                    <select class="form-control" ng-model="selected2"
+                                            ng-options="sh.text for sh in selected.children">
+                                        <option value="">--请选择--</option>
+                                    </select>
+                                    <input hidden name='from_city' value="{{selected2.text}}">
+                                </div>
+                                <label>至</label>
+
+                                <div class="form-group">
+                                    <select class="form-control" ng-model="selected3" ng-options="s.text for s in list">
+                                        <option value="">--请选择--</option>
+                                    </select>
+
+                                    <select class="form-control" ng-model="selected4"
+                                            ng-options="sh.text for sh in selected3.children">
+                                        <option value="">--请选择--</option>
+                                    </select>
+                                    <input hidden name='to_city' value="{{selected4.text}}">
+                                    <label>车牌号码</label>
+                                    <select name="car_num" class="form-control" style="width: 185px;">
+                                        <option value="">请选择常用车辆车牌号</option>
+                                        <volist name="commoncar" id="common">
+                                            <option>{$common.car_num}</option>
+                                        </volist>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>车　　型</label>
+                                <select name="car_type" class="form-control" style="width: 185px;">
+                                    <option value="">请选择车型</option>
+                                    <option>平板</option>
+                                    <option>高栏</option>
+                                    <option>封箱</option>
+                                    <option>高低板</option>
+                                    <option>槽罐</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>车　　长</label>
+                                <select name="car_length" class="form-control" style="width: 185px;">
+                                    <option value="">请选择车长</option>
+                                    <option>9.6米</option>
+                                    <option>10.5米</option>
+                                    <option>13.5米</option>
+                                    <option>17米</option>
+                                    <option>18米</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>载　　重</label>
+                                <select name="car_loading" class="form-control" style="width: 185px;">
+                                    <option value="">请选择载重</option>
+                                    <option>8T</option>
+                                    <option>10T</option>
+                                    <option>15T</option>
+                                    <option>20T</option>
+                                    <option>25T</option>
+                                </select>
+                            </div>
+                            <div class="col-md-10"></div>
+                            <div class="col-md-2" style="text-align: right">
+                                <button type="submit" class="btn btn-success btn-xs" style="width: 80px;height: 30px;">
+                                    搜　　索
+                                </button>
+                                　　　　　　　　
+                            </div>
+                        </form>
+                    </div>
+                    <div class="container" style="width: 100%">
+                        <div class="panel panel-default">
+                            <div class="heading" style="margin: 10px 10px">
+                                车源信息列表
+                            </div>
+                            <div class="table-responsive">
+                                <!--<div class="container">-->
+                                <table class="table table-hover table-striped table-condensed">
+                                    <thead>
+                                    <tr class="active text-center">
+                                        <th>NO.</th>
+                                        <th>发布日期</th>
+                                        <th>起运城市</th>
+                                        <th>目的城市</th>
+                                        <th>车牌号</th>
+                                        <th>车型</th>
+                                        <th>车长</th>
+                                        <th>载重</th>
+                                        <th>备注</th>
+                                        <th>操作</th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="car" id="car" key="c">
+                                        <tr class="sucess">
+                                            <td>{$c}</td>
+                                            <td>{$car.release_date}</td>
+                                            <td>{$car.from_city}</td>
+                                            <td>{$car.to_city}</td>
+                                            <td>{$car.car_num}</td>
+                                            <td>{$car.car_type}</td>
+                                            <td>{$car.car_length}</td>
+                                            <td>{$car.car_loading}</td>
+                                            <td>{$car.remark}</td>
+                                            <td><a href="#" data-toggle="modal" data-target="#myModal">订车</a></td>
+                                        </tr>
+                                    </volist>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <nav class="pull-right">
+                                <ul class="pagination">
+                                    <?php echo $carinfopage?>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+                <!--tab页 2 零担发货-->
+                <div class="tab-pane" id="company">
+                    <div class="tab-pane active">
+                        <div class="container jiange" style="width: 800px;">
+                            <form class="form-inline" action="/Good/lookCar" method="get" ng-app='app'
+                                  ng-controller='cityCtrl'>
+                                <div class="form-group" style="width: 100%">
+                                    <div class="form-group">
+                                        <label class="control-label formlabel1">线　　路 </label>
+                                        <select class="form-control" ng-model="selected" ng-options="s.text for s in list">
+                                            <option value="">--请选择--</option>
+                                        </select>
+                                        <select class="form-control" ng-model="selected2"
+                                                ng-options="sh.text for sh in selected.children">
+                                            <option value="">--请选择--</option>
+                                        </select>
+                                        <input hidden name='from_city' value="{{selected2.text}}">
+                                    </div>
+                                    <label>至</label>
+
+                                    <div class="form-group">
+                                        <select class="form-control" ng-model="selected3" ng-options="s.text for s in list">
+                                            <option value="">--请选择--</option>
+                                        </select>
+
+                                        <select class="form-control" ng-model="selected4"
+                                                ng-options="sh.text for sh in selected3.children">
+                                            <option value="">--请选择--</option>
+                                        </select>
+                                        <input hidden name='to_city' value="{{selected4.text}}">
+                                        <label>车牌号码</label>
+                                        <select name="car_num" class="form-control" style="width: 185px;">
+                                            <option value="">请选择常用车辆车牌号</option>
+                                            <volist name="commoncar" id="common">
+                                                <option>{$common.car_num}</option>
+                                            </volist>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>车　　型</label>
+                                    <select name="car_type" class="form-control" style="width: 185px;">
+                                        <option value="">请选择车型</option>
+                                        <option>平板</option>
+                                        <option>高栏</option>
+                                        <option>封箱</option>
+                                        <option>高低板</option>
+                                        <option>槽罐</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>车　　长</label>
+                                    <select name="car_length" class="form-control" style="width: 185px;">
+                                        <option value="">请选择车长</option>
+                                        <option>9.6米</option>
+                                        <option>10.5米</option>
+                                        <option>13.5米</option>
+                                        <option>17米</option>
+                                        <option>18米</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>载　　重</label>
+                                    <select name="car_loading" class="form-control" style="width: 185px;">
+                                        <option value="">请选择载重</option>
+                                        <option>8T</option>
+                                        <option>10T</option>
+                                        <option>15T</option>
+                                        <option>20T</option>
+                                        <option>25T</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-10"></div>
+                                <div class="col-md-2" style="text-align: right">
+                                    <button type="submit" class="btn btn-success btn-xs" style="width: 80px;height: 30px;">
+                                        搜　　索
+                                    </button>
+                                    　　　　　　　　
+                                </div>
+                            </form>
+                        </div>
+                        <div class="container" style="width: 100%">
+                            <div class="panel panel-default">
+                                <div class="heading" style="margin: 10px 10px">
+                                    企业车主列表
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-striped table-condensed">
+                                        <thead>
+                                        <tr class="active text-center">
+                                            <th>NO.</th>
+                                            <th>物流公司名称</th>
+                                            <th>联系人</th>
+                                            <th>联系方式</th>
+                                            <th>操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <volist name="company" id="com" key = 'cp'>
+                                            <tr class="sucess">
+                                                <td>{$cp}</td>
+                                                <td>{$com.company}</td>
+                                                <td>{$com.contact}</td>
+                                                <td>{$com.tel}</td>
+                                                <td><a href="#" data-toggle="modal" data-target="#myModal">订车</a></td>
+                                            </tr>
+                                        </volist>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <nav class="pull-right">
+                                    <ul class="pagination">
+                                        <?php echo $carinfopage?>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--<div class="container jiange" style="width: 800px;">-->
+    <!--<form class="form-inline"  action="/Good/lookCar" method="get" ng-app='app' ng-controller='cityCtrl'>-->
+        <!--<div class="form-group" style="width: 100%">-->
+            <!--<div class="form-group">-->
+                <!--<label class="control-label formlabel1">线　　路 </label>-->
+                <!--<select class="form-control" ng-model="selected" ng-options="s.text for s in list">-->
+                    <!--<option value="">&#45;&#45;请选择&#45;&#45;</option>-->
+                <!--</select>-->
+                <!--<select class="form-control" ng-model="selected2"-->
+                        <!--ng-options="sh.text for sh in selected.children">-->
+                    <!--<option value="">&#45;&#45;请选择&#45;&#45;</option>-->
+                <!--</select>-->
+                <!--<input  hidden name = 'from_city' value="{{selected2.text}}">-->
+            <!--</div>-->
+            <!--<label>至</label>-->
+
+            <!--<div class="form-group">-->
+                <!--<select class="form-control" ng-model="selected3" ng-options="s.text for s in list">-->
+                    <!--<option value="">&#45;&#45;请选择&#45;&#45;</option>-->
+                <!--</select>-->
+
+                <!--<select class="form-control" ng-model="selected4"-->
+                        <!--ng-options="sh.text for sh in selected3.children">-->
+                    <!--<option value="">&#45;&#45;请选择&#45;&#45;</option>-->
+                <!--</select>-->
+                <!--<input  hidden name = 'to_city' value="{{selected4.text}}">-->
+                <!--<label>车牌号码</label>-->
+                <!--<select name="car_num" class="form-control" style="width: 185px;">-->
+                    <!--<option value="">请选择常用车辆车牌号</option>-->
+                    <!--<volist name="commoncar" id="common">-->
+                        <!--<option>{$common.car_num}</option>-->
+                    <!--</volist>-->
+                <!--</select>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+            <!--<label>车　　型</label>-->
+            <!--<select name="car_type" class="form-control" style="width: 185px;">-->
+                <!--<option value="">请选择车型</option>-->
+                <!--<option>平板</option>-->
+                <!--<option>高栏</option>-->
+                <!--<option>封箱</option>-->
+                <!--<option>高低板</option>-->
+                <!--<option>槽罐</option>-->
+            <!--</select>-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+            <!--<label>车　　长</label>-->
+            <!--<select name="car_length" class="form-control" style="width: 185px;">-->
+                <!--<option value="">请选择车长</option>-->
+                <!--<option>9.6米</option>-->
+                <!--<option>10.5米</option>-->
+                <!--<option>13.5米</option>-->
+                <!--<option>17米</option>-->
+                <!--<option>18米</option>-->
+            <!--</select>-->
+        <!--</div>-->
+        <!--<div class="form-group">-->
+            <!--<label>载　　重</label>-->
+            <!--<select name="car_loading" class="form-control" style="width: 185px;">-->
+                <!--<option value="">请选择载重</option>-->
+                <!--<option>8T</option>-->
+                <!--<option>10T</option>-->
+                <!--<option>15T</option>-->
+                <!--<option>20T</option>-->
+                <!--<option>25T</option>-->
+            <!--</select>-->
+        <!--</div>-->
+        <!--<div class="col-md-10"></div>-->
+        <!--<div class="col-md-2" style="text-align: right">-->
+            <!--<button type="submit" class="btn btn-success btn-xs" style="width: 80px;height: 30px;">搜　　索-->
+            <!--</button>-->
+            <!--　　　　　　　　-->
+        <!--</div>-->
+    <!--</form>-->
+<!--</div>-->
+<!--<div class="container" style="width: 100%">-->
+    <!--<div class="panel panel-default">-->
+        <!--<div class="heading" style="margin: 10px 10px">-->
+            <!--车源信息列表-->
+        <!--</div>-->
+        <!--<div class="table-responsive">-->
+            <!--&lt;!&ndash;<div class="container">&ndash;&gt;-->
+            <!--<table class="table table-hover table-striped table-condensed">-->
+                <!--<thead>-->
+                <!--<tr class="active text-center">-->
+                    <!--<th>#</th>-->
+                    <!--<th>发布日期</th>-->
+                    <!--<th>起运城市</th>-->
+                    <!--<th>目的城市</th>-->
+                    <!--<th>车牌号</th>-->
+                    <!--<th>车型</th>-->
+                    <!--<th>车长</th>-->
+                    <!--<th>载重</th>-->
+                    <!--<th>备注</th>-->
+                    <!--<th>操作</th>-->
+
+                <!--</tr>-->
+                <!--</thead>-->
+                <!--<tbody>-->
+                <!--<volist name="car" id="car" key="c">-->
+                    <!--<tr class="sucess">-->
+                        <!--<td>{$c}</td>-->
+                        <!--<td>{$car.release_date}</td>-->
+                        <!--<td>{$car.from_city}</td>-->
+                        <!--<td>{$car.to_city}</td>-->
+                        <!--<td>{$car.car_num}</td>-->
+                        <!--<td>{$car.car_type}</td>-->
+                        <!--<td>{$car.car_length}</td>-->
+                        <!--<td>{$car.car_loading}</td>-->
+                        <!--<td>{$car.remark}</td>-->
+                        <!--<td><a href="#" data-toggle="modal" data-target="#myModal">订车</a></td>-->
+                    <!--</tr>-->
+                <!--</volist>-->
+
+
+                <!--</tbody>-->
+            <!--</table>-->
+        <!--</div>-->
+        <!--<nav class="pull-right">-->
+            <!--<ul class="pagination">-->
+                <!--<?php echo $carinfopage?>-->
+            <!--</ul>-->
+        <!--</nav>-->
+    <!--</div>-->
+<!--</div>-->
+<script>
+    $("#mytab a").click(function (e) {
+        e.preventDefault();
+        $(this).tab("show");
+    })
+</script>
+</body>
+</html>
+

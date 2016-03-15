@@ -1,0 +1,220 @@
+<?php if (!defined('THINK_PATH')) exit();?><style>
+    input,select{
+        min-width: 150px;
+    }
+    .form-group{
+        margin-top: 10px;
+    }
+
+    #articletitle {
+        padding-bottom: 0px;
+    }
+
+    aside {
+        padding-bottom: 0px;
+    }
+</style>
+<script>
+    showLocation();
+    showLocation1();
+    $('#serch').on('click', function () {
+        $('#table').bootstrapTable('refresh')
+    })
+
+    $('#reset').on('click', function () {
+        $("input[name='res']").click();
+        $('#table').bootstrapTable('refresh')
+    })
+    $('#table').bootstrapTable({
+        url: '<?php echo U("good");?>',
+        height: 750,
+        sidePagination: 'server',
+        pagination: true,
+        pageSize: 10,
+//        pageList: [5,10, 15, 20, 25],
+//        search: true,
+        showColumns: true,
+        showRefresh: true,
+        clickToSelect: true,
+        singleSelect: true,
+        queryParams: queryParams,//参数
+//        onClickRow: function (row) {
+////          console.log(row)
+//            track(row.posY,row.posX)
+//        },
+        columns: [{
+//            field: 'goodsName',
+            title: 'NO.',
+            formatter: function (value, row, index) {
+                return index + 1
+            }
+//            visible: false
+        }, {
+            field: 'goodsName',
+            title: '货物名称',
+//            visible: false
+        }, {
+            field: 'deliveryDate',
+            title: '发货日期',
+//            visible: false
+        }, {
+            field: 'goodsType',
+            title: '货物类型',
+//            visible: false
+        }, {
+            field: 'goodsLoadSize',
+            title: '货物描述'
+        }, {
+            field: 'startAddress',
+            title: '装货地址',
+            visible: false
+        }, {
+            field: 'endAddress',
+            title: '卸货地址',
+        }, {
+            field: 'describe',
+            title: '备注'
+        }]
+    });
+
+
+    function queryParams(params) {
+        if ($('#loc_city').val() == "") {
+            params.startStation = ""
+        } else {
+            params.startStation = $('#loc_city  option:selected').text();
+        }
+        if ($('#loc_city1').val() == "") {
+            params.endStation = ""
+        } else {
+            params.endStation = $('#loc_city1  option:selected').text();
+        }
+        params.startDate = $('#from_date').val();
+        params.endDate = $('#to_date').val();
+        return params
+    }
+</script>
+<section class="content-wrap">
+    <div class="container">
+        <div class="row">
+            <main class="col-md-9 main-content">
+                <article class="post tag-about-ghost tag-ghost-in-depth tag-zhu-shou-han-shu" id="articletitle">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form id="car" class="form-inline" action="">
+                                <div class="form-group">
+                                    <label class=" control-label">发货时间</label>
+
+                                    <input type="date" class="form-control" id="from_date">
+
+                                    <label class=" control-label">至</label>
+
+                                    <input type="date" class="form-control" id="to_date">
+                                </div>
+                                <div class="form-group">
+                                    <label class=" control-label">运输城市</label>
+
+                                    <select id="loc_province" class="form-control"></select>
+
+                                    <select id="loc_city" class="form-control"></select>
+                                    <label class="control-label">至</label>
+
+                                    <select id="loc_province1" class="form-control "></select>
+
+                                    <select id="loc_city1" class="form-control "></select>
+                                </div>
+
+                                <br>
+                                <div class="form-group" style="float: right">
+                                    <a id="serch" class="button button-uppercase button-primary">搜索</a>
+                                    <!--<button id="serch" type="button" class="btn btn-primary btn-sm">搜索</button>-->
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="post tag-about-ghost tag-ghost-in-depth tag-zhu-shou-han-shu">
+                    <div style="height: 650px">
+                        <div class="panel panel-info ">
+                            <div class="panel-heading">
+                                货源信息
+                            </div>
+                            <table id="table"></table>
+                        </div>
+                    </div>
+
+
+                </article>
+            </main>
+
+
+            <aside class="col-md-3 sidebar">
+                <div class="widget">
+                    <h4 class="title">标签云</h4>
+
+                    <div class="content tag-cloud">
+                        <a href="#">发货</a>
+                        <a href="#">找车</a>
+                        <a href="#">货物投保</a>
+                        <a href="#">车辆投保</a>
+                        <a href="#">理赔</a>
+                        <a href="#">招聘司机</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <h4 class="title">衢州—南京 </h4>
+
+                    <div class="content community">
+                        <p>电话：13757186868</p>
+
+                        <p>车牌号：浙A35168</p>
+
+                        <p>地址：A区168号</p>
+
+                        <div class="content download">
+                            <a href="#" class="btn btn-default btn-block">详情</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="widget">
+                    <h4 class="title">衢州—广州 </h4>
+
+                    <div class="content community">
+                        <p>电话：13757186868</p>
+
+                        <p>车牌号：浙A35168</p>
+
+                        <p>地址：A区168号</p>
+
+                        <div class="content download">
+                            <a href="#" class="btn btn-default btn-block">详情</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="widget">
+                    <h4 class="title">衢州—北京 </h4>
+
+                    <div class="content community">
+                        <p>电话：13757186868</p>
+
+                        <p>车牌号：浙A35168</p>
+
+                        <p>地址：A区168号</p>
+
+                        <div class="content download">
+                            <a href="#" class="btn btn-default btn-block">详情</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </aside>
+        </div>
+    </div>
+</section>

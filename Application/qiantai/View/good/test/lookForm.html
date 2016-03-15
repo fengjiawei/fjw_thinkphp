@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>订单查看</title>
+    <include file='Public/js'/>
+    <style>
+        table {
+            padding: 0;
+            text-align: center;
+            font-size: 5px;
+        }
+
+        table th {
+            text-align: center;
+        }
+
+        input {
+            margin-bottom: 5px;
+        }
+    </style>
+
+    <script>
+        function checkGood(id) {
+            $('#id').val(id);
+            $('#myModal').modal('show');
+        }
+        function checkReceipt(id) {
+            $('#receive_id').val(id);
+            $('#myModalreceive').modal('show');
+        }
+        function checkLoad() {
+            if ($('#good_name').val() == "") {
+                $('#tip_body').text('货物名称不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#load_good_num').val() == '') {
+                $('#tip_body').text('货物件数不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#load_good_weight').val() == '') {
+                $('#tip_body').text('货物重量不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#load_good_volume').val() == '') {
+                $('#tip_body').text('货物体积不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#load_price').val() == '') {
+                $('#tip_body').text('运费价格不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else {
+                $.post(
+                        '{:U("Good/checkLoad")}',
+                        $("#load").serialize(),
+                        function (result) {
+                            if (result == 'success') {
+                                $('#myModal').modal('hide');
+                                $('#tip_body').text('装货成功，正在发货－－');
+                                $('#tip').modal('show');
+                                setTimeout(function () {
+                                    $('#tip').modal('hide')
+                                }, 1000);
+                            } else if (result == 'false') {
+                                $('#tip_body').text('装货失败');
+                                $('#tip').modal('show');
+                                setTimeout(function () {
+                                    $('#tip').modal('hide')
+                                }, 1000);
+                            }
+                        }
+                );
+            }
+
+        }
+
+        function checkReceive() {
+            if ($('#receipt_good_name').val() == "") {
+                $('#tip_body').text('货物名称不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#receipt_good_num').val() == '') {
+                $('#tip_body').text('货物件数不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#receipt_good_weight').val() == '') {
+                $('#tip_body').text('货物重量不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            } else if ($('#receipt_good_volume').val() == '') {
+                $('#tip_body').text('货物体积不能为空');
+                $('#tip').modal('show');
+                setTimeout(function () {
+                    $('#tip').modal('hide')
+                }, 1000);
+            }else {
+                $.post(
+                        '{:U("Good/checkReceive")}',
+                        $("#receive").serialize(),
+                        function (result) {
+                            if (result == 'success') {
+                                $('#myModalreceive').modal('hide');
+                                $('#tip_body').text('收货成功');
+                                $('#tip').modal('show');
+                                setTimeout(function () {
+                                    $('#tip').modal('hide')
+                                }, 1000);
+                            } else if (result == 'false') {
+                                $('#tip_body').text('装货失败');
+                                $('#tip').modal('show');
+                                setTimeout(function () {
+                                    $('#tip').modal('hide')
+                                }, 1000);
+                            } else{
+                                $('#tip_body').text(result);
+                                $('#tip').modal('show');
+                                setTimeout(function () {
+                                    $('#tip').modal('hide')
+                                }, 1000);
+                            }
+                        }
+                );
+            }
+
+        }
+    </script>
+</head>
+
+<body style="background-color: #FFFFFF;">
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="page-header">
+                <h3 id="pagehead1">
+                    订单查看
+                </h3>
+            </div>
+
+            <div class="form111">
+                <!--表单1-->
+                <form class="form-horizontal form-group" role="form">
+                    <table border="0" style="width: 100%">
+                        <tr>
+                            <td width="90x">
+                                <label class="col-md-1">发货城市</label>
+                            </td>
+                            <td width="150px">
+                                <input type="text" class="form-control" placeholder="选择城市">
+                            </td>
+                            <td width="90x">
+                                <label class="col-md-1">到货城市</label>
+                            </td>
+                            <td width="150px">
+                                <input type="text" class="form-control" placeholder="选择城市">
+                            <td width="90px">
+                                <label class="col-md-1">发货日期</label>
+                            </td>
+                            <td width="150px">
+                                <input type="date" class="form-control" placeholder="选择日期">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80x">
+                                <label class="col-md-1">货物种类</label>
+                            </td>
+                            <td>
+                                <select class="form-control" id="huowuzhonglei">
+                                    <option></option>
+                                    <option>重货</option>
+                                    <option>泡货</option>
+                                </select>
+                            </td>
+                            <td width="100px">
+                                <label class="col-md-1">发货方式</label>
+                            </td>
+                            <td>
+                                <select class="form-control" id="fahuofangshi">
+                                    <option></option>
+                                    <option>整车</option>
+                                    <option>零担</option>
+                                </select>
+                            </td>
+                            <td width="90px">
+                                <label class="col-md-1">至</label>
+                            </td>
+                            <td>
+                                <input type="date" class="form-control" placeholder="选择日期">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="90x">
+                                <label class="col-md-1">车牌号</label>
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" placeholder="输入车号">
+                            </td>
+                            <td width="90x">
+                                <label class="col-md-1">驾驶员</label>
+
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" placeholder="输入姓名">
+                            </td>
+                            <td width="90px">
+                                <label class="col-md-1">手机号</label>
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" placeholder="输入号码">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="5" width="80%">
+
+                            </td>
+                            <td width="90x">
+                                <div class="col-sm-offset-2 col-sm-2">
+                                    <button type="submit" class="btn btn-primary">搜　索</button>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+
+            <!--信息列表-->
+            <div class="table-responsive">
+                <table class="table table-hover table-striped table-condensed" id="table">
+                    <thead>
+                    <tr class="active">
+                        <th>#</th>
+                        <th>状态</th>
+                        <th>单号</th>
+                        <th>货物类型</th>
+                        <th>订单日期</th>
+                        <th>车牌号</th>
+                        <th>司机</th>
+                        <th>手机号</th>
+                        <th>装车城市</th>
+                        <th>卸货城市</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="form" id="f" key="k">
+                        <tr class="sucess">
+                            <td>{$k}</td>
+                            <td>{$f.status}</td>
+                            <td>{$f.id}</td>
+                            <td>{$f.good_type}</td>
+                            <td>{$f.release_date}</td>
+                            <td>{$f.car_num}</td>
+                            <td>{$f.driver}</td>
+                            <td>{$f.mobile}</td>
+                            <td>{$f.from_city}</td>
+                            <td>{$f.to_city}</td>
+                            <td>
+                                <if condition="$f.status eq '待司机装货'">
+                                    <a style="color: #f0005e" onclick="checkGood('{$f.id}')">确认装货</a>
+                                    <a href="{:U('track')}?id={$f.id}">货物跟踪</a>
+                                    <a href="{:U('formDetails')}?id={$f.id}">订单详情</a>
+                                    <elseif condition="$f.status eq '待货主收货'"/>
+                                    <a  onclick="checkReceipt('{$f.id}')" style="color: #f0005e">确认收获</a>
+                                    <a href="{:U('track')}?id={$f.id}">货物跟踪</a>
+                                    <a href="{:U('formDetails')}?id={$f.id}">订单详情</a>
+                                    <elseif condition="$f.status eq '已成交'"/>
+                                    <a href="{:U('track')}?id={$f.id}">货物跟踪</a>
+                                    <a href="{:U('formDetails')}?id={$f.id}">订单详情</a>
+                                </if>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+                <nav class="pull-right ">
+                    <ul class="pagination ">
+                        <?php echo $formpage?>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

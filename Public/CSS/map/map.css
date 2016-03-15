@@ -1,0 +1,108 @@
+
+#container {
+    height: 90%;
+    /*margin: 0px*/
+}
+
+.panel1 {
+    background-color: #ddf;
+    color: #333;
+    border: 1px solid silver;
+    box-shadow: 3px 4px 3px 0px silver;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 36px;
+}
+
+#btn{
+    /*background-color: #ddf;*/
+    /*color: #333;*/
+    /*border: 1px solid silver;*/
+    /*box-shadow: 3px 4px 3px 0px silver;*/
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /*border-radius: 5px;*/
+    overflow: hidden;
+    line-height: 20px;
+    /*margin-bottom: 36px;*/
+}
+#input1 {
+    width: 250px;
+    height: 25px;
+    border: 0;
+}
+
+#fullbg {
+    height: 100%;
+    width: 100%;
+    /*background-color: gray;*/
+    left: 0;
+    opacity: 0.5;
+    /*position: absolute;*/
+    top: 0;
+    /*z-index: 3;*/
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    position: fixed;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background: #000;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    z-index: 99;
+    overflow: hidden;
+    display: none;
+}
+
+#dialog {
+    left:50%;
+    top:50%;
+    margin:-200px -400px;
+    position:fixed !important; /* 浮动对话框 */
+    /*position:absolute;*/
+    /*top:50%;*/
+    /*width:800px;*/
+    /*z-index:5;*/
+    /*border-radius:5px;*/
+    display:none;
+    /*overflow-y: auto;*/
+    overflow-x: hidden; /*隐藏水平滚动条*/
+    width: auto;
+    min-width: 70%;
+    height: 500px /* 320px */;
+    max-height: calc(100% - 20px); /* 当时窗口的最大高度减去20px*/
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(51,122,182);
+    border-radius: 5px;
+    position: fixed; /*保证在可视区域内居中 */
+    z-index: 100;
+}
+#dialog p {
+    background-color: rgb(51,122,182);
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    cursor: move;
+    margin-top: 0;
+    color: white;
+}
+
+#close {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#close a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+}

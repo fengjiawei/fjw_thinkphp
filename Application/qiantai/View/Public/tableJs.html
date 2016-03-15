@@ -1,0 +1,39 @@
+            <!-- jQuery -->
+            <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js  "></script>
+            <script src="http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+            <!-- Bootstrap JavaScript -->
+            <js href="__PUBLIC__/js/bootstrap.js"/>
+            <js href="__PUBLIC__/js/bootstrap-table.js"/>
+            <js href="__PUBLIC__/js/bootstrap-table-zh-CN.js"/>
+            <js href="__PUBLIC__/js/tooltip.js"/>
+            <js href="__PUBLIC__/js/popover.js"/>
+            <script src="http://apps.bdimg.com/libs/angular.js/1.4.0-beta.4/angular.min.js"></script>
+            <!--<script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>-->
+            <!-- import -->
+            <!-- <import file="Js.bootstrap" type="js" /> -->
+
+            <!-- load -->
+             <!--<load href="__PUBLIC__/list.json"/>-->
+
+            <!-- css -->
+             <css href="__PUBLIC__/css/bootstrap.min.css"/>
+             <css href="__PUBLIC__/css/bootstrap-table.css"/>
+             <css href="__PUBLIC__/css/normalize.css"/>
+             <css href="__PUBLIC__/css/jquery-ui-1.10.0.custom.css"/>
+             <!--<css href="__PUBLIC__/css/lanrenzhijia.css"/>-->
+
+
+
+            <!-- js -->
+             <js href="__PUBLIC__/js/json.js"/>
+            <script>
+
+                var app = angular.module('app', []);
+
+                app.controller('cityCtrl', ['$scope', function ($scope) {
+                    $scope.error = {};
+                    $scope.list = json;
+                }]);
+            </script>

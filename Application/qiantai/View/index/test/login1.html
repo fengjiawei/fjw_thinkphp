@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>56zhipei</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Sans-Serif;
+            font-size: 0.85em;
+        }
+
+        img {
+            border: none;
+        }
+
+        ul, ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li.first {
+            border-top: 1px solid #DFDFDF;
+        }
+
+        ul li.last {
+            border: none;
+        }
+
+        ul p {
+            float: left;
+            margin: 0;
+            width: 310px;
+        }
+
+        ul h3 {
+            float: left;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0 0 0;
+            width: 200px;
+            margin-left: 20px;
+        }
+
+        ul li {
+            border-bottom: 1px solid #DFDFDF;
+            padding: 15px 0;
+            width: 600px;
+            overflow: hidden;
+        }
+
+        ul input[type="text"], ul input[type="password"] {
+            width: 300px;
+            padding: 5px;
+            position: relative;
+            border: solid 1px #666;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+
+        ul input.required {
+            border: solid 1px #f00;
+        }
+    </style>
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <css href="__PUBLIC__/css/bootstrap.min.css"/>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            function refresh(){
+                $('#ver').attr('src','{:U("Index/verify")}')
+            }
+            $("#login").click(function () {
+
+                resetFields();
+                var emptyfields = $("input[value=]");
+                if (emptyfields.size() > 0) {
+                    emptyfields.each(function () {
+                        $(this).stop()
+                                .animate({left: "-10px"}, 100).animate({left: "10px"}, 100)
+                                .animate({left: "-10px"}, 100).animate({left: "10px"}, 100)
+                                .animate({left: "0px"}, 100)
+                                .addClass("required");
+                    });
+                } else {
+                    $.post(
+                            '{:U("Index/login")}',
+                            $("#loginInfo").serialize(),
+                            function (data) {
+                                console.log(data.result)
+                                if (data.ver) {
+//                                    $('#tip_body').text('验证码错误');
+//                                    $('#tip').modal('show');
+//                                    setTimeout(function () {
+//                                        $('#tip').modal('hide')
+//                                    }, 1000);
+                                    alert('验证码错误');
+                                    refresh();
+                                    return;
+                                }
+                                ;
+                                if (data.result == 'success') {
+//                                    $('.login').modal('hide');
+//                                    $('#tip_body').text('登录成功');
+//                                    $('#tip').modal('show');
+//                                    setTimeout(function () {
+//                                        $('#tip').modal('hide')
+//                                    }, 2000);
+                                    window.location.replace("{:U('index')}");
+                                } else {
+//                                    $('#tip_body').text('用户名密码错误');
+//                                    $('#tip').modal('show');
+//                                    setTimeout(function () {
+//                                        $('#tip').modal('hide')
+//                                    }, 2000);
+                                    alert('用户名密码错误');
+                                    window.location.reload()
+                                }
+                            },
+                            'json'
+                    );
+                }
+            });
+        });
+        function resetFields() {
+            $("input[type=text], input[type=password]").removeClass("required");
+        }
+    </script>
+</head>
+<body>
+<center>
+    <br/><br/>
+
+    <h2><a href="{:U('index')}"><img src="__IMG__/logo.jpg" /></a></h2>
+
+    <form id="loginInfo" method="post">
+    <ul>
+        <li class="first">
+            <h3>账号</h3>
+
+            <p>
+
+                <input type="text"  id="account" name="account" placeholder="输入账号"/>
+
+            </p>
+        </li>
+        <li>
+
+            <h3>密码</h3>
+
+            <p>
+                <input type="password" name="password" placeholder="输入密码"/></p>
+        </li>
+        <li>
+            <h3>验证码</h3>
+
+            <p>
+                <input type="text" id="verify" name="verify" placeholder="输入验证码" style="width:40%;float: left"/>
+                <img id="ver" src='{:U("Index/verify")}' onclick="this.src=this.src+'?'+Math.random()"/>
+            </p>
+
+        </li>
+        <li class="last">
+
+            <button id="login" type="button" class="btn btn-primary" style="width:35% ;float:right">登陆
+            </button>
+            <a  href="{:U('index')}" type="button" class="btn btn-primary" style=" ;float:right;margin-right: 20px">返回
+            </a>
+            <!--<p>还没有账号？<a style="color: orangered" href="#">立即注册</a> | <a style="color: orangered"href="#">忘记密码</a>-->
+            <!--</p>-->
+        </li>
+    </ul>
+    </form>
+</center>
+</body>
+</html>

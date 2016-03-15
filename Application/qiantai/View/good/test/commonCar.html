@@ -1,0 +1,249 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>常用车辆</title>
+    <include file = 'Public/js' />
+    <script type="text/javascript">
+
+        function addcar() {
+//        alert(2);
+            $.post(
+                    '{:U("Good/addcar")}',
+                    $("#form1").serialize(),
+                    function (data) {
+                        if (data == 'success') {
+                            $("#myModal").modal('show');
+                        } else {
+                            alert('添加失败')
+                        }
+                    }
+            )
+        }
+
+        function del(d) {
+            $.post(
+                    '{:U("Good/delcommoncar")}',
+                    {id: d},
+                    function (data) {
+//                    alert(data);
+                        if (data == 'success') {
+                            alert('删除成功')
+                        } else {
+                            alert('删除失败')
+                        }
+                    }
+            )
+        }
+
+    </script>
+    <style>
+
+        table {
+            padding: 0;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        table th {
+            text-align: center;
+        }
+
+        table {
+            text-align: center;
+            font-size: 10px;
+        }
+
+        .jiange div {
+            margin-top: 8px;
+            font-size: 11px;
+            color: #626262;
+        }
+
+        .jiange button {
+            margin-top: 8px;
+
+        }
+
+        .jiange {
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: #ffffff">
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息发布</h4>
+            </div>
+            <div class="modal-body">
+                车辆添加成功!
+            </div>
+            <div class="modal-footer">
+                <a type="button" class="btn btn-success" href="{:U('lookcar')}">
+                    查看车源
+                </a>
+                <a type="button" class="btn btn-success" href="{:U('commonCar')}">
+                    继续添加
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="page-header">
+                <h3>
+                    常用车辆
+                </h3>
+            </div>
+            <div class="container jiange" style="width: 800px;">
+                <form class="form-inline" action="" method="get" id="form1" name="form1" ng-app='app'
+                      ng-controller='cityCtrl'>
+                    <div class="form-group" style="width: 100%">
+                        <div class="form-group">
+                            <label class="control-label formlabel1">线　　路 </label>
+                            <select class="form-control" ng-model="selected" ng-options="s.text for s in list">
+                                <option value="">--请选择省--</option>
+                            </select>
+                            <input hidden name='from_province' value="{{selected.text}}">
+                            <select class="form-control" ng-model="selected2"
+                                    ng-options="sh.text for sh in selected.children">
+                                <option value="">--请选择市--</option>
+                            </select>
+                            <input hidden name='from_city' value="{{selected2.text}}">
+                        </div>
+                        <label>至</label>
+
+                        <div class="form-group">
+                            <select class="form-control" ng-model="selected3" ng-options="s.text for s in list">
+                                <option value="">--请选择省--</option>
+                            </select>
+                            <input hidden name='to_province' value="{{selected3.text}}">
+                            <select class="form-control" ng-model="selected4"
+                                    ng-options="sh.text for sh in selected3.children">
+                                <option value="">--请选择市--</option>
+                            </select>
+                            <input hidden name='to_city' value="{{selected4.text}}">
+                            <label>当前位置</label>
+                            <input name="current_position" type="text" class="form-control" placeholder=""
+                                   style="width: 128px;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>车牌号码</label>
+                        <input name="car_num" style="width: 170px;" type="text" class="form-control"
+                               placeholder="请输入车牌号">
+                    </div>
+                    <div class="form-group">
+                        <label style="margin-left: 10px;margin-right: 6px"> 驾 驶 员</label>
+                        <input name="driver" style="width: 170px;" type="text" class="form-control" placeholder="请输入姓名">
+                    </div>
+                    <div class="form-group">
+                        <label>手机号码</label>
+                        <input name="mobile" style="width: 170px;" type="text" class="form-control"
+                               placeholder="请输入手机号码">
+                    </div>
+
+                    <div class="form-group">
+                        <label>车　　型</label>
+                        <select name="car_type" class="form-control" style="width: 170px;">
+                            <option value=""></option>
+                            <option>平板</option>
+                            <option>高栏</option>
+                            <option>封箱</option>
+                            <option>高低板</option>
+                            <option>槽罐</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>车　　长</label>
+                        <select name="car_length" class="form-control" style="width: 170px;">
+                            <option value=""></option>
+                            <option>9.6米</option>
+                            <option>10.5米</option>
+                            <option>13.5米</option>
+                            <option>17米</option>
+                            <option>18米</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>载　　重</label>
+                        <select name="car_loading" class="form-control" style="width: 170px;">
+                            <option value=""></option>
+                            <option>8T</option>
+                            <option>10T</option>
+                            <option>15T</option>
+                            <option>20T</option>
+                            <option>25T</option>
+                        </select>
+                    </div>
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4" style="text-align: right">
+                        <button class="btn btn-warning btn-xs" onclick="addcar()" style="width: 80px;height: 30px;">添　加
+                        </button>
+                        <button type="submit" class="btn btn-success btn-xs"
+                                onclick="form1.action='/Good/commonCar';form1.submit();"
+                                style="width: 80px;height: 30px;">搜　索
+                        </button>
+                        　　　　
+                        　
+                    </div>
+
+                    <br>
+                </form>
+            </div>
+
+
+            <!--信息列表-->
+
+            <div class="container" style="width: 100%">
+                <table class="table table-hover table-striped table-condensed">
+                    <thead>
+                    <tr class="active text-center">
+                        <th>#</th>
+                        <th>城市起运</th>
+                        <th>目的城市</th>
+                        <th>车牌号</th>
+                        <th>车型</th>
+                        <th>车长</th>
+                        <th>载重</th>
+                        <th>位置</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="carlist" id="car" key="c">
+                        <tr class="sucess">
+                            <td>{$c}</td>
+                            <td>{$car.from_city}</td>
+                            <td>{$car.to_city}</td>
+                            <td>{$car.car_num}</td>
+                            <td>{$car.car_type}</td>
+                            <td>{$car.car_length}</td>
+                            <td>{$car.car_loading}</td>
+                            <td>{$car.curren_position}</td>
+                            <td><a href="#" onclick="del('{$car.id}')">删除</a></td>
+                        </tr>
+                    </volist>
+
+                    </tbody>
+                </table>
+                <nav class="pull-right">
+                    <ul class="pagination">
+                        <?php echo $carpage?>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+

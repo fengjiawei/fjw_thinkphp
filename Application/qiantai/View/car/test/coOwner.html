@@ -1,0 +1,295 @@
+<layout name='carlayout'/>
+<script type="text/javascript">
+    var app = angular.module('app', []);
+    app.controller('cityCtrl', ['$scope', '$http', function ($scope, $http) {
+        $scope.error = {};
+        $scope.list = [];
+        $http.get('list.json').success(function (data) {
+            $scope.list = data;
+        });
+    }]);
+</script>
+<style>
+
+    table {
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .panelbody1 {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .panelheading1 {
+        padding-top: 10px;
+    }
+
+    table th {
+        text-align: center;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    .jiange div {
+        margin-top: 8px;
+        font-size: 11px;
+        color: #626262;
+    }
+
+    .jiange button {
+        margin-top: 8px;
+
+    }
+
+    .jiange {
+        font-size: 10px;
+    }
+
+    label {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+</style>
+<!-- Modal 报价 -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">请输入您的报价</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-inline"
+                ">
+                <div class="form-group">
+                    <label>报价&nbsp;</label>
+                    <input type="text" class="form-control" placeholder="请输入报价" style="width: 185px;">
+
+                </div>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-dismiss="modal">提 交</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 接单 -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">承运接单</h4>
+            </div>
+            <div class="modal-body">
+                <p>您已接单，请尽快安排提货!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">确 定</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="page-header">
+                <h3>
+                    合作货主
+                    <small><!--此处编写页标题--></small>
+                </h3>
+            </div>
+            <div class="container jiange" style="width: 800px;">
+                <form class="form-inline">
+
+
+                    <br>
+
+                    <div class="form-group">
+                        <label>联系人名</label>
+                        <input type="text" class="form-control" placeholder="请输入姓名">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>货物种类</label>
+                        <select class="form-control" style="width: 185px;">
+                            <option>重货</option>
+                            <option>泡货</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>货物类型</label>
+                        <select class="form-control" style="width: 185px;">
+                            <option>设备</option>
+                            <option>食品</option>
+                            <option>化工产品</option>
+                            <option>药品</option>
+                            <option>电器</option>
+                            <option>其它</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+
+                    <br>
+
+
+                    <div class="col-md-4" style="text-align: right">
+                        <button type="submit" class="btn btn-warning btn-xs" style="width: 80px;height: 30px;">添　　加
+                        </button>
+                        　　
+                        <button type="submit" class="btn btn-success btn-xs" style="width: 80px;height: 30px;">搜　　索
+                        </button>
+                        　　　　　　　
+                    </div>
+
+                    <br>
+                </form>
+            </div>
+
+            <!--信息列表-->
+            <!--<div class="container">-->
+            <div class="panel panel-default col-md-12">
+                <div class="heading panelheading1">
+                    合作货主列表
+                    <p></p>
+                </div>
+                <div class="panel-body panelbody1">
+                    <!--<p><a href="#">查看详情...</a>
+                    </p>-->
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped table-condensed">
+                        <thead>
+                        <tr class="active text-center">
+                            <th>#</th>
+                            <th>联系人</th>
+                            <th>联系方式</th>
+                            <th>发货方式</th>
+                            <th>货物种类</th>
+                            <th>状态</th>
+                            <th>发布日期</th>
+                            <th>装车城市</th>
+                            <th>卸货城市</th>
+                            <th>货物类型</th>
+                            <th>件数</th>
+                            <th>重量/体积</th>
+                            <th>备注</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>李元吉</td>
+                            <td>18667160369</td>
+                            <td>整车</td>
+                            <td>泡货</td>
+                            <td>未抢单</td>
+                            <td>2015-07-18</td>
+                            <td>杭州</td>
+                            <td>南京</td>
+                            <td>食品</td>
+                            <td>50件</td>
+                            <td>35吨</td>
+                            <td>不能压</td>
+                            <td><a href="#" data-toggle="modal" data-target="#myModal1">抢单报价</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>李元吉</td>
+                            <td>18667160369</td>
+                            <td>整车</td>
+                            <td>泡货</td>
+                            <td>已报价</td>
+                            <td>2015-07-18</td>
+                            <td>杭州</td>
+                            <td>南京</td>
+                            <td>食品</td>
+                            <td>50件</td>
+                            <td>35吨</td>
+                            <td>不能压</td>
+                            <td><a href="#" data-toggle="modal" data-target="#myModal1">二次报价</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>李元吉</td>
+                            <td>18667160369</td>
+                            <td>整车</td>
+                            <td>泡货</td>
+                            <td>已委托</td>
+                            <td>2015-07-18</td>
+                            <td>杭州</td>
+                            <td>南京</td>
+                            <td>食品</td>
+                            <td>50件</td>
+                            <td>35吨</td>
+                            <td>不能压</td>
+                            <td><a href="#" data-toggle="modal" data-target="#myModal2">接单</a></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>6</td>
+                            <td>李元吉</td>
+                            <td>18667160369</td>
+                            <td>整车</td>
+                            <td>泡货</td>
+                            <td>已成交</td>
+                            <td>2015-07-18</td>
+                            <td>杭州</td>
+                            <td>南京</td>
+                            <td>食品</td>
+                            <td>50件</td>
+                            <td>35吨</td>
+                            <td>不能压</td>
+                            <td>
+                                <a href="#">订单查看</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <nav class="pull-right">
+                        <ul class="pagination">
+
+                            <li>
+                                <a href="#" aria="previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a>
+                            </li>
+                            <li><a href="#">2</a>
+                            </li>
+                            <li><a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#" aria="next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

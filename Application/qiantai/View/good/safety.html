@@ -1,0 +1,116 @@
+<style>
+    .container .font-t {
+        font-size: 28px;
+        font-family: "Microsoft YaHei";
+        color: #009999;
+        margin-top: 20px;
+    }
+
+    .container .font-a {
+        /*font-size: 12px;*/
+        /*font-family: "Microsoft YaHei";*/
+        /*color: #818181    ;*/
+        height: 2em;
+        line-height: 2em;
+        /*overflow: hidden;*/
+    }
+
+    .container .font-b {
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        color: #4c4c4c;
+    }
+
+    .container .font-a p {
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+        height: 2em;
+        line-height: 2em;
+        overflow: hidden;
+    }
+</style>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="page-header">
+            <ol class="breadcrumb">
+                <li><a href="#">个人中心</a></li>
+                <li class="active">安全设置</li>
+            </ol>
+        </div>
+
+        <table class="table table-striped">
+            <tr>
+                <td class="font-a"><span class="label label-success">保护中</span></td>
+                <td class="font-b">登入密码</td>
+                <td class="font-a">登录时输入，保护账户安全</td>
+                <td class="font-a"><a href="javascript:void(0)" onclick="resetPw()">修改</a></td>
+            </tr>
+            <tr>
+                <td class="font-a">
+                    <if condition="$list.authenticationState eq 'authed'">
+                        <span class="label label-success">已认证</span>
+                        <elseif condition="$list.authenticationState eq 'wait'"/>
+                        <span class="label label-primary">认证中</span>
+                        <else/>
+                        <span class="label label-danger">未认证</span>
+                    </if>
+                </td>
+                <td class="font-b">实名认证</td>
+                <td class="font-a">实名认证后可享受更多功能和服务，找回账户更快捷</td>
+                <td class="font-a">
+                    <if condition="$list.authenticationState eq 'authed'">
+                        <!--<p style="color: green">已认证</p>-->
+                        <elseif condition="$list.authenticationState eq 'wait'"/>
+                        <a>查看</a>
+                        <else/>
+                        <a href="javascript:void(0)" onclick="auth()">立即认证</a>
+                    </if>
+                </td>
+            </tr>
+            <script>
+                function auth() {
+                    $.get('{:U("authentication")}', function (data) {
+                        $('#goodChildView').html(data)
+                    })
+                }
+                function resetPw() {
+                    $.get('{:U("resetPw")}', function (data) {
+                        $('#goodChildView').html(data)
+                    })
+                }
+                function bind() {
+                    $.get('{:U("binding")}', function (data) {
+                        $('#goodChildView').html(data)
+                    })
+                }
+
+
+            </script>
+            <tr>
+                <td class="font-a"><span class="label label-success">已绑定</span></td>
+                <td class="font-b">账号绑定</td>
+                <td class="font-a">通过绑定手机或者绑定邮箱找回密码</td>
+                <td class="font-a"><a href="javascript:void(0)" onclick="bind()">设置</a></td>
+            </tr>
+            <tr>
+                <td class="font-a"><span class="label label-default">未使用</span></td>
+                <td class="font-b">支付密码</td>
+                <td class="font-a">支付运费时输入，保护账户资金安全</td>
+                <td class="font-a"><a href="javascript:void(0)" onclick="return false">设置</a></td>
+            </tr>
+            <tr>
+                <td class="font-a"><span class="label label-default">未使用</span></td>
+                <td class="font-b">转账密码</td>
+                <td class="font-a">余额转出或修改转出账户时输入，保护账户安全</td>
+                <td class="font-a"><a href="javascript:void(0)" onclick="return false">设置</a></td>
+            </tr>
+            <tr>
+                <td class="font-a"><span class="label label-default">未使用</span></td>
+                <td class="font-b">限额设置</td>
+                <td class="font-a">支付运费时输入，保护账户资金安全</td>
+                <td class="font-a"><a href="javascript:void(0)" onclick="return false">设置</a></td>
+            </tr>
+        </table>
+        <div style="height: 200px;background-color: #ffffff"></div>
+    </div>
+</div>

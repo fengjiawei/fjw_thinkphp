@@ -1,0 +1,1906 @@
+[ 2016-01-05T08:45:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-01-05T08:45:54+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-01-05T08:46:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-01-05T08:46:07+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-01-05T08:49:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:52+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:49:55+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:15+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:33+08:00 ] 127.0.0.1 /Index/login1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-01-05T08:50:39+08:00 ] 127.0.0.1 /Index/login1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:45+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:50+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:50:57+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/917866b4-0108-43b8-b909-6b90cf43166a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003649s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/a7951c8e-c1fc-4dbc-9ac3-79cfe80462ac.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/765f275a-1eb7-45e7-8d9b-3e14ec109692.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/1d7101c3-288f-4c72-8793-092d1f3df4ce.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/4f6489bf-a498-44c0-87af-9c366a262d93.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/654a6f2f-ad04-441f-8b1e-f3bd9d0f9e4a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/6fef93d1-f820-4b63-b230-178097d92519.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/58515058-dd0f-47f2-bcb4-d88e8b38c187.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/8197ed62-e1e9-4581-8b73-cf0e88a897d8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/04348663-4b56-46c4-af4a-5e7e67acb47e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002597s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/dd2f6af3-b3c3-4ebf-b97c-e9e33743a9fc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003315s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/2aaaa5e0-9a28-4b3e-8183-1cff3f06bce0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/0eb8c029-b144-4c20-9bd4-8cfa1df7c65d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/c475c061-6b32-4ba9-9b00-cad0d3e19c01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003343s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003645s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/48e4078f-c672-4c24-a6ea-d718700e77c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/a8af07af-8d36-45cd-ae9e-d40f47fdc792.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/a1f24567-b27d-41e7-8ed1-e603dd42fde8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/8fb4e74d-b8b9-4e51-9c45-26d0a9ec4f0c.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/2d10d3cf-0a02-42fa-80fe-34d2dc91ca3d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/5d253bcf-82ef-4f18-a883-48f2746923d0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/global_33bbd7e.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/658d8d40-a784-4dac-8f23-1ada793d3581.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/0301c584-9b3c-45e5-b7df-fba2580a3d64.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/hover-min_a7e1590.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/bootstrap-datepicker3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/jquery.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/index_bf7698a.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载控制器:运宝网—零担物流,特价专线,门到门服务,物流公司_运东西找运宝物流!_files
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/9e5e018d-8058-49d7-b439-2b738e38db35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/58592186-be21-458a-895c-60a2f6a68f83.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/d667b2a4-b111-46a4-8aa2-57c80760a79f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/b4ac7019-c9a4-4d57-8809-2c71b3c62630.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/b0765261-653a-45d4-b1a5-5eaad9b6065e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/cbfebd68-2d6c-43a8-a000-334dcc3e9772.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/17533c82-281a-456f-b101-077e7a49014b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/855432eb-e667-4ff3-932d-72f9776d0d43.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/aff52065-04a8-41a2-b28c-91daf0d638e0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/0c8dfc1b-ecf5-442c-af6e-af7cc8dea6a0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/11881684-7b72-4629-811d-109259cefec7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/41f0e9a1-757b-4c06-a85a-6bbfabcc4d60.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/e72f7114-0377-4299-bd36-5c59568b2629.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-01-05T08:52:21+08:00 ] 127.0.0.1 /%E8%BF%90%E5%AE%9D%E7%BD%91%E2%80%94%E9%9B%B6%E6%8B%85%E7%89%A9%E6%B5%81,%E7%89%B9%E4%BB%B7%E4%B8%93%E7%BA%BF,%E9%97%A8%E5%88%B0%E9%97%A8%E6%9C%8D%E5%8A%A1,%E7%89%A9%E6%B5%81%E5%85%AC%E5%8F%B8_%E8%BF%90%E4%B8%9C%E8%A5%BF%E6%89%BE%E8%BF%90%E5%AE%9D%E7%89%A9%E6%B5%81%21_files/5e96cf16-9ce1-4b18-b546-e4b59f4bf85b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-01-05T08:55:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-01-05T08:55:07+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-01-05T08:55:16+08:00 ] 127.0.0.1 /Index/logistics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2016-01-05T08:55:16+08:00 ] 127.0.0.1 /spel_files/header_a5ff612.js?_=1451955307736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T08:55:17+08:00 ] 127.0.0.1 /spel_files/sidebar_6769653.js?_=1451955307737
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T08:55:17+08:00 ] 127.0.0.1 /spel_files/core.php?_=1451955307738
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /Index/mdm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/header_a5ff612.js?_=1451955307739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/sidebar_6769653.js?_=1451955307740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/core.php?_=1451955307741
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/result_ef277db.js?_=1451955307742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/jquery.min.js?_=1451955307743
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/bootstrap.min.js?_=1451955307744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/jquery.validate.min.js?_=1451955307745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/jquery-validate.bootstrap-tooltip.min.js?_=1451955307746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/lodash.min.js?_=1451955307747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/citydropdown_9f84628.js?_=1451955307748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/mendaomen_55b812b.js?_=1451955307749
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/cnzz.js?_=1451955307750
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/q_stat.php?_=1451955307751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:21+08:00 ] 127.0.0.1 /service_files/require_b0b8637.js?_=1451955307752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:23+08:00 ] 127.0.0.1 /Index/newPlatService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-01-05T08:55:26+08:00 ] 127.0.0.1 /Index/newPlatService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-01-05T08:55:31+08:00 ] 127.0.0.1 /Index/mdm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-01-05T08:55:31+08:00 ] 127.0.0.1 /service_files/header_a5ff612.js?_=1451955307753
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:31+08:00 ] 127.0.0.1 /service_files/sidebar_6769653.js?_=1451955307754
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:31+08:00 ] 127.0.0.1 /service_files/core.php?_=1451955307755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:31+08:00 ] 127.0.0.1 /service_files/result_ef277db.js?_=1451955307756
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:31+08:00 ] 127.0.0.1 /service_files/jquery.min.js?_=1451955307757
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/bootstrap.min.js?_=1451955307758
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/jquery.validate.min.js?_=1451955307759
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/jquery-validate.bootstrap-tooltip.min.js?_=1451955307760
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/lodash.min.js?_=1451955307761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/citydropdown_9f84628.js?_=1451955307762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/mendaomen_55b812b.js?_=1451955307763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/cnzz.js?_=1451955307764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/q_stat.php?_=1451955307765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /service_files/require_b0b8637.js?_=1451955307766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /Index/logistics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /spel_files/header_a5ff612.js?_=1451955307767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /spel_files/sidebar_6769653.js?_=1451955307768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T08:55:32+08:00 ] 127.0.0.1 /spel_files/core.php?_=1451955307769
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /Index/mdm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/header_a5ff612.js?_=1451955307770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/sidebar_6769653.js?_=1451955307771
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/core.php?_=1451955307772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/result_ef277db.js?_=1451955307773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/jquery.min.js?_=1451955307774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/bootstrap.min.js?_=1451955307775
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/jquery.validate.min.js?_=1451955307776
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/jquery-validate.bootstrap-tooltip.min.js?_=1451955307777
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/lodash.min.js?_=1451955307778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/citydropdown_9f84628.js?_=1451955307779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/mendaomen_55b812b.js?_=1451955307780
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/cnzz.js?_=1451955307781
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/q_stat.php?_=1451955307782
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:33+08:00 ] 127.0.0.1 /service_files/require_b0b8637.js?_=1451955307783
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T08:55:34+08:00 ] 127.0.0.1 /Index/newPlatService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-01-05T09:06:05+08:00 ] 127.0.0.1 /Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-01-05T09:06:06+08:00 ] 127.0.0.1 /Index/logistics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-01-05T09:06:06+08:00 ] 127.0.0.1 /spel_files/header_a5ff612.js?_=1451955307784
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T09:06:06+08:00 ] 127.0.0.1 /spel_files/sidebar_6769653.js?_=1451955307785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T09:06:06+08:00 ] 127.0.0.1 /spel_files/core.php?_=1451955307786
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载控制器:Spel_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /Index/mdm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/header_a5ff612.js?_=1451955307787
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/sidebar_6769653.js?_=1451955307788
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/core.php?_=1451955307789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/result_ef277db.js?_=1451955307790
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/jquery.min.js?_=1451955307791
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/bootstrap.min.js?_=1451955307792
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/jquery.validate.min.js?_=1451955307793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/jquery-validate.bootstrap-tooltip.min.js?_=1451955307794
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/lodash.min.js?_=1451955307795
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/citydropdown_9f84628.js?_=1451955307796
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/mendaomen_55b812b.js?_=1451955307797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/cnzz.js?_=1451955307798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/q_stat.php?_=1451955307799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /service_files/require_b0b8637.js?_=1451955307800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载控制器:Service_files
+
+[ 2016-01-05T09:06:07+08:00 ] 127.0.0.1 /Index/newPlatService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-01-05T09:19:44+08:00 ] 127.0.0.1 /Index/newPlatService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
